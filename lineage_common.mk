@@ -33,6 +33,10 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# Quick Tap Stronger Taps
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringOverlay
