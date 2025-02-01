@@ -10,6 +10,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 # turbo_adapter service
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
 
+# wifi_ext service
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_ext
+
 # sepolicy that are shared among devices using whitechapel
 BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/whitechapel_pro
 
